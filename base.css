@@ -1,0 +1,110 @@
+@charset "utf-8";
+/*
+ * Name				 : CSSBase v 1.0.0
+ *
+ * Filename			 : base.css
+ * Description		 : Base CSS for reseting Margin, Padding, Fonts, etc. across all browsers. Also includes some utility classes.
+ * Project URL		 : http://projects.arunraj.in/web-cssbase
+ * Documentation	 : http://projects.arunraj.in/web-cssbase/docs
+ * 
+ * Author			 : Arun Raj Rajagopalan ( Raj <web@arunraj.in> )
+ * Author Website	 : http://www.arunraj.in
+ * License			 : http://creativecommons.org/licenses/by-sa/3.0/
+ * 
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:top;
+	background: transparent;
+}
+body {
+	line-height: 105%;
+	color: #000;
+}
+html, body {
+	height: 100%;
+}
+blockquote, q {
+	quotes:none;
+	margin: 12px 40px;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none;
+}
+:focus {
+	outline:0;
+}
+ins {
+	text-decoration:none;
+}
+del {
+	text-decoration:line-through;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+a, a img {
+	border: none;
+	text-decoration: none;
+}
+ul, ol, li{
+	list-style-position: inside;
+}
+/* Utility Classes */
+.al {
+	text-align: left;
+}
+.ac {
+	text-align: center;
+}
+.aj {
+	text-align: justify;
+}
+.ar {
+	text-align: right;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.fn {
+	float: none;
+}
+.cb, .cr, .cl {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	height: 0px;
+	line-height: 0px;
+	font-size: 0px;
+}
+.cl {
+	clear: left;
+}
+.cr {
+	clear: right;
+}
+.il {
+	display: inline;
+}
+ul.il li {
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+}
+p {
+	margin-bottom: 10px;
+}
+.row {
+	position: relative;
+	overflow: hidden;
+}
